@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RoundTracker - Supporto</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f7f7f4;
+      --surface: #ffffff;
+      --text: #1f2428;
+      --muted: #5e6770;
+      --border: #d9ddd7;
+      --accent: #2f6f73;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #111417;
+        --surface: #1a1f24;
+        --text: #eef1f2;
+        --muted: #b6bdc3;
+        --border: #303840;
+        --accent: #8fd3d7;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: clamp(24px, 4vw, 44px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 32px;
+      margin-bottom: 10px;
+    }
+
+    p,
+    ul {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 650;
+    }
+
+    .meta {
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+
+    .contact {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      background: color-mix(in srgb, var(--accent) 10%, transparent);
+      margin: 24px 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Supporto RoundTracker</h1>
+      <p class="meta">Assistenza per l'app RoundTracker</p>
+
+      <p>
+        RoundTracker e' un'app per gestire campagne, personaggi, incontri, round,
+        iniziativa, punti ferita e note di gioco.
+      </p>
+
+      <div class="contact">
+        <p>
+          Per assistenza puoi scrivere a:
+          <a href="mailto:supportomatcho@gmail.com">supportomatcho@gmail.com</a>
+        </p>
+      </div>
+
+      <h2>Cosa includere nella richiesta</h2>
+      <p>
+        Per aiutarci a capire il problema, indica possibilmente:
+      </p>
+      <ul>
+        <li>il modello del dispositivo e la versione di iOS;</li>
+        <li>la versione di RoundTracker installata;</li>
+        <li>una breve descrizione del problema;</li>
+        <li>i passaggi per riprodurlo, se disponibili;</li>
+        <li>uno screenshot, se utile.</li>
+      </ul>
+
+      <h2>Dati e backup</h2>
+      <p>
+        I dati dell'app sono salvati localmente sul dispositivo. Se devi cambiare dispositivo
+        o reinstallare l'app, usa le funzioni di esportazione disponibili nell'app quando
+        possibile.
+      </p>
+
+      <h2>Acquisti e annunci</h2>
+      <p>
+        Gli acquisti in-app sono gestiti da Apple tramite App Store. Per problemi legati a
+        pagamenti, ricevute o rimborsi, potrebbe essere necessario usare anche il supporto Apple.
+      </p>
+      <p>
+        RoundTracker puo' mostrare annunci pubblicitari. Alcune impostazioni sugli annunci
+        dipendono dal consenso e dalle impostazioni privacy del dispositivo.
+      </p>
+
+      <h2>Foto dei personaggi e delle schede</h2>
+      <p>
+        Le foto aggiunte nell'app vengono usate per visualizzare personaggi e schede durante
+        la gestione degli incontri. Puoi modificare o rimuovere le foto dalla schermata del
+        personaggio.
+      </p>
+
+      <h2>Privacy Policy</h2>
+      <p>
+        Puoi leggere la Privacy Policy qui:
+        <a href="./index.html">Privacy Policy di RoundTracker</a>.
+      </p>
+    </article>
+  </main>
+</body>
+</html>
